@@ -7,9 +7,9 @@ package C4_Graph.$4_3_MinimumSpanningTree;
 
 public class Edge
 {
-    private final int v;
-    private final int w;
-    private final double weight;
+    private final int v;               // 顶点之一
+    private final int w;               // 另一个顶点
+    private final double weight;       // 边的权重
 
     public Edge(int v, int w,double weight) {
         this.v = v;

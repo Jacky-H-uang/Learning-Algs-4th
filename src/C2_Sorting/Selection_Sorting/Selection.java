@@ -14,7 +14,7 @@ public class Selection
             int min = i;
             for(int j=i+1;j<N;j++)
             {
-                if(Example.less(a[j],a[i]))     min = j;
+                if(Example.less(a[j],a[min]))     min = j;
             }
             Example.exch(a,i,min);                      //将 a[i] 与 a[min] 换位置
         }
